@@ -1,0 +1,52 @@
+
+html, body {
+     background-color: rgb(40, 112, 134); 
+     font-family: lato;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding: 40px;
+    color: rgb(19, 18, 15);
+}
+
+#form, .header2 {
+    font-size: 22px;
+    line-height: 35px;
+}
+
+input[type="number"] {
+  width: 40%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+  font-size:16px;
+  text-align: center;
+}
+
+#header{
+    font-size: 20px;
+}
+
+button {
+    background-color: rgb(39, 97, 84);
+    color: black;
+    border: 1px rgb(39, 97, 84) solid;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 16px;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+
+#result{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding: 40px;
+    color: rgb(19, 18, 15);
+}

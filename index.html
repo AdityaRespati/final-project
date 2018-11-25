@@ -1,0 +1,49 @@
+<!doctype HTML>
+
+<html>
+
+<head>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Index</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="script-main.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <header id="header">
+            <h1>Lihat manfaat berhenti merokok bagi anda</h1>
+        </header>
+        <form id="form" action="#headerAngka">
+            <label>Seberapa banyak anda merokok?</label><br>
+            <input type="number" id="jumlah" placeholder="...batang per hari"><br><br>
+            <label>Harga per bungkus rokok anda</label><br>
+            <input type="number" id="harga" placeholder="dalam rupiah"><br><br>
+            <label>Jumlah rokok per bungkus</label><br>
+            <input type="number" id="jumlah-per-bungkus" placeholder="sebungkus isi..."><br><br>
+            <label>Kapan terakhir anda merokok?</label><br>
+            <input type="number" id="waktu" placeholder="...hari yang lalu"><br><br>
+            <button onclick="myFunction()">lihat manfaatnya</button>
+        </form>
+    </div>
+
+    <div section="result" id="result"> 
+        <h1 id="headerHemat"></h1>
+        <p class="p-result" id="hemat"></p>
+        <h1 id="headerDetak"></h1>
+        <p class="p-result" id="detak"></p>
+        <h1 id="headerRisiko"></h1>
+        <p class="p-result" id="risiko"></p>
+        <h1 id="headerAngka"></h1>
+        <p class="p-result" id="angka"></p>
+    </div>
+
+</body>
+
+
+</html>
